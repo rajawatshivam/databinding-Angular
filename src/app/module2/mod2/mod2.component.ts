@@ -9,7 +9,7 @@ export class Mod2Component implements OnInit {
 
   constructor() { }
 
-  ngOnInit() {
+  ngOnInit() { 
   }
 
 }
