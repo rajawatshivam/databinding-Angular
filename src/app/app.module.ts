@@ -15,6 +15,9 @@ import { ChildComponent } from './module3/parent/child/child.component';
 import { Mod4childComponent } from './module4/mod4parent/mod4child/mod4child.component';
 import { Mod4parentComponent } from './module4/mod4parent/mod4parent.component';
 import { Module4Module } from './module4/module4.module';
+import { GrandpopsComponent } from './module5/grandpops/grandpops.component';
+import { PopsComponent } from './module5/pops/pops.component';
+import { SonComponent } from './module5/son/son.component';
 
 const appRoutes:Routes=[
   {path:'module1/mod1', component:Mod1Component},
@@ -23,6 +26,9 @@ const appRoutes:Routes=[
   {path:'module3/child', component:ChildComponent},
   {path:'module4/child', component:Mod4childComponent},
   {path:'module4/parent', component:Mod4parentComponent},
+  {path:'module5/grandpops', component:GrandpopsComponent},
+  {path:'module5/pops', component:PopsComponent},
+  {path:'module5/son', component:SonComponent},
 ]
 @NgModule({
   declarations: [
