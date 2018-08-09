@@ -13,12 +13,17 @@ import { Module5Module } from './module5/module5.module';
 import { Module6Module } from './module6/module6.module';
 import { ParentComponent } from './module3/parent/parent.component';
 import { ChildComponent } from './module3/child/child.component';
+import { ChilddComponent } from './module4/childd/childd.component';
+import { ParenComponent } from './module4/paren/paren.component';
+
 
 const appRoutes:Routes=[
   {path:'module1/mod1', component:Mod1Component},
   {path:'module2/mod2', component:Mod2Component},
   {path:'module3/child', component:ChildComponent},
-  {path:'module3/parent', component:ParentComponent}
+  {path:'module3/parent', component:ParentComponent},
+  {path:'module4/child', component:ChilddComponent},
+  {path:'module4/parent', component:ParenComponent}
 ]
 @NgModule({
   declarations: [
