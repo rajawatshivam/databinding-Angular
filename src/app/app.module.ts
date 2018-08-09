@@ -12,19 +12,24 @@ import { Module5Module } from './module5/module5.module';
 import { Module6Module } from './module6/module6.module';
 import { ParentComponent } from './module3/parent/parent.component';
 import { ChildComponent } from './module3/parent/child/child.component';
+import { Mod4childComponent } from './module4/mod4parent/mod4child/mod4child.component';
+import { Mod4parentComponent } from './module4/mod4parent/mod4parent.component';
+import { Module4Module } from './module4/module4.module';
 
 const appRoutes:Routes=[
   {path:'module1/mod1', component:Mod1Component},
   {path:'module2/mod2', component:Mod2Component},
   {path:'module3/parent', component:ParentComponent},
   {path:'module3/child', component:ChildComponent},
+  {path:'module4/child', component:Mod4childComponent},
+  {path:'module4/parent', component:Mod4parentComponent},
 ]
 @NgModule({
   declarations: [
     AppComponent,
   ],
   imports: [
-    BrowserModule, Module1Module, RouterModule.forRoot(appRoutes), Module2Module, Module3Module, Module5Module, Module6Module
+    BrowserModule, Module1Module, RouterModule.forRoot(appRoutes), Module2Module, Module3Module,Module4Module, Module5Module, Module6Module
   ],
   providers: [],
   bootstrap: [AppComponent]
