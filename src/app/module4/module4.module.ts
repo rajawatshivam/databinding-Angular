@@ -1,12 +1,12 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { ChilddComponent } from './childd/childd.component';
-import { ParenComponent } from './paren/paren.component';
+import { ParentComponent } from './parent/parent.component';
+import { ChildComponent } from './parent/child/child.component';
 
 @NgModule({
   imports: [
     CommonModule
   ],
-  declarations: [ChilddComponent, ParenComponent]
+  declarations: [ParentComponent, ChildComponent]
 })
 export class Module4Module { }

@@ -1,4 +1,12 @@
-<div class="container">
-<input type="text" #input (keyup)="0">  <br>
-<app-child [chMessage]=input.value></app-child>
-</div>
+<pre>
+<p>hi i am just testing</p>
+<pre>
+    <input type="text"  #titleInput>
+    <button type="submit" (click) = 'clickMe(titleInput.value)'>Click Me</button>
+  </pre>
+  
+  
+ <app-child [childMessage]=parentMessage></app-child>
+</pre>
+  
+  

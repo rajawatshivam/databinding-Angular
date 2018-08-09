@@ -6,12 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./parent.component.css']
 })
 export class ParentComponent implements OnInit {
-  parentMessage:string;
-  constructor() { }
-  
-  clickMe(titlet:string) { 
-    this.parentMessage=titlet
-  }
-  ngOnInit() {}
-}
 
+  constructor() { }
+
+  ngOnInit() {
+  }
+
+}
